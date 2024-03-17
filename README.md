@@ -1,20 +1,20 @@
 # Elementary X  
 
-#### Maintainer Needed! Please leave a comment in "Maintainer Needed!" issue if you're intrested  
+#### ¡Se necesita mantenedor! Por favor deje un comentario en "¡Se necesita mantenedor!" problema si estás interesado
 
-Fork of the Default Gtk+ Stylesheet for elementary OS with OS X window controls
+Bifurcación de la hoja de estilo Gtk+ predeterminada para SO elemental con controles de ventana de OS 
 
-The forked Gtk.CSS stylesheet with OS X window controls is designed specifically for [elementary OS](https://elementary.io) and its desktop environment: Pantheon. **Since Gtk.CSS has changed quite a bit, this stylesheet only supports Gtk >= 3.22**
+La hoja de estilo Gtk.CSS bifurcada con controles de ventana de OS X está diseñada específicamente para [elementary OS](https://elementary.io) y su entorno de escritorio: Pantheon. **Dado que Gtk.CSS ha cambiado bastante, esta hoja de estilo solo admite Gtk. >= 3.22**
 
-#### Elementary-X is available in two variants
+#### Elementary-X está disponible en dos variantes
 
-##### Dark Variant
+##### Variante oscura
 
 ![](https://i.imgur.com/kWuZ2aY.png)
 ![](https://i.imgur.com/n2T2tjm.png)
 ![](https://i.imgur.com/lPLt0Xx.png)
 
-##### Light Variant
+##### Variante ligera
 ###### (old screenshots)
 
 ![](http://i.imgur.com/AFwq5WW.png)
@@ -26,56 +26,60 @@ The forked Gtk.CSS stylesheet with OS X window controls is designed specifically
 
 #### Features
 
-- Traffic lights window controls
-- Re-designed widgets to look cool
-- Always up to date with original elementary-os stylesheet
+- Controles de ventanas de semáforos.
+- Widgets rediseñados para lucir geniales
+- Siempre actualizado con la hoja de estilo original de Elementary-OS.
 
-### Installation
+### Instalación
 
-You'll need ```git``` to install this theme
-
-1. Open terminal and execute the following
+Necesitarás ```git``` para instalar este tema
+   ```
+  apt-get install git
 ```
-git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementary-x
+
+1. Abra la terminal y ejecute lo siguiente
 ```
-2. Select this theme in tweak tool or execute the following 
+git clone https://github.com/desarrollo032/elementary-x.git ~/.themes/elementary-x
+```
+2. Seleccione este tema en la herramienta de ajuste o ejecute lo siguiente
 ```
 gsettings set org.gnome.desktop.interface gtk-theme "elementary-x"
 ```  
-3. Thats it you're done!
+3. ¡Eso es todo, ya terminaste!
 
-***Note**: To install it globally i.e. for situation when you run apps as root or specially SNAP packages move your theme to ```/usr/share/themes ```*
+***Nota**: Para instalarlo globalmente, es decir, en situaciones en las que ejecuta aplicaciones como root o paquetes SNAP especiales, mueva su tema a ```/usr/share/themes ```*
 
 ### Extras
-* Refer here to see how to set [DARK MODE](https://askubuntu.com/questions/769417/how-to-change-global-dark-theme-on-and-off-through-terminal) 
-* The icon theme used is [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme). (Use `install_fixed_icons.sh` to install a fixed version of icon theme for eos)
-* The folder also includes plank themes! To install just use the ```install_plank_themes.sh``` script
-* Chrome themes will be included soon..
-* There are metacity and xfwm4 themes wich are for other desktop environment use.
-* *There is no gnome-shell theme as it is ment for elementary gala de*.
+* Consulte aquí para ver cómo configurar [DARK MODE](https://askubuntu.com/questions/769417/how-to-change-global-dark-theme-on-and-off-through-terminal) 
+* El tema de iconos utilizado es [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme). (Use `install_fixed_icons.sh` para instalar una versión fija del tema de iconos para eos)
+* ¡La carpeta también incluye temas de tablones! Para instalar simplemente use el ```install_plank_themes.sh``` script
+* Los temas de Chrome se incluirán pronto.
+* Hay temas de metacity y xfwm4 que son para uso en otros entornos de escritorio.
+* *No hay un tema de gnome-shell ya que está diseñado para la gala elemental*.
 
 #### TO-DO
-Here is the link to the trello board for the project >  [board](https://trello.com/b/hEsKYAOa).  
+Aquí está el enlace al tablero de Trello para el proyecto. >  [board](https://trello.com/b/hEsKYAOa).  
 
 
 ### Contributing
 
-This stylesheet doesn't need to be compiled. It is recommended to make a
-symbolic link from the source directory to "/usr/share/themes" for testing:
+No es necesario compilar esta hoja de estilo. Se recomienda hacer un enlace simbólico desde el directorio fuente a "/usr/share/themes" para las pruebas:
 
     ln -s /path/to/your/branch /usr/share/themes/
 
-Apps will need to be restarted or the system stylesheet will need to be
-changed for your changes to take effect.
+Será necesario reiniciar las aplicaciones o modificar la
+hoja de estilo del sistema. cambiado para que los cambios
+surtan efecto.
 
-You can also test changes live with Gtk Inspector. Make sure you have Gtk
-development libraries installed:
+También puedes probar los cambios en vivo con Gtk Inspector. 
+Asegúrate de tener Gtk bibliotecas de desarrollo instaladas:
 
     sudo apt install libgtk-3-dev
 
-Open an app you wish to test your changes on. Open Gtk Inspector with the
-keyboard shortcut Shift + Ctrl + D, then navigate to the tab "Custom CSS".
-Your changes here will take immediate effect on the focused app.
+Abra una aplicación en la que desee probar sus cambios. Abra Gtk 
+Inspector con el método abreviado de teclado Shift + Ctrl + D, luego 
+navegue hasta la pestaña "Custom CSS". Sus cambios aquí tendrán 
+efecto inmediato en la aplicación enfocada.
 
 ### Todo
 
